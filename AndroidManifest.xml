@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vinny.ttdapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vinny.ttdapp.TtdStartingMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TtdMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.vinny.ttdapp.TTDMAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".TtdRegistrationMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.vinny.ttdapp.TTDREGISTRATIONMAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.vinny.ttdapp.app.admin.TttdAdminLoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.vinny.ttdapp.app.admin.TTDADMINLOGINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".TtdAboutUs"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.vinny.ttdapp.TTDABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TtdTempleAddActivity"></activity>
+        <activity android:name=".TtdTempleSearchActivity"></activity>
+        <activity android:name=".TtdTempleApprovalActivity"></activity>
+        <activity android:name="com.vinny.ttdapp.app.admin.TtdTempleApprovalActivity"></activity>
+    </application>
+
+</manifest>

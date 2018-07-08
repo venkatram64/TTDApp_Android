@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout13"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+			
+            <Spinner
+                android:id="@+id/ttd_rcategoryId"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/prompt"
+                android:spinnerMode="dropdown" />
+            
+            <Spinner
+                android:id="@+id/ttd_rdistrictId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/dprompt"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/ttd_rmandalId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/mprompt"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/ttd_rvillageId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/vprompt"
+                android:spinnerMode="dropdown" />
+
+            <Spinner
+                android:id="@+id/ttd_rtempleId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/prompt"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/ttd_temple_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Temple name" />
+
+            <EditText
+                android:id="@+id/ttd_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/ttd_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/ttd_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+				<Button
+                    android:id="@+id/ttd_rapproval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Approve" />
+                <Button
+                    android:id="@+id/ttd_redit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit" />
+                
+                <Button
+                    android:id="@+id/ttd_rdelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Delete" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

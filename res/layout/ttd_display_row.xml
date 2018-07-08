@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/ttd_dcat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Category"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ttd_ddist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ttd_dcat"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="52dp"
+        android:text="District" />
+
+    <TextView
+        android:id="@+id/ttd_dmandal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttd_dcat"
+        android:text="Mandal" />
+
+    <TextView
+        android:id="@+id/ttd_dvillage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ttd_dmandal"
+        android:layout_alignBottom="@+id/ttd_dmandal"
+        android:layout_alignRight="@+id/ttd_ddist"
+        android:text="Village" />
+
+    <TextView
+        android:id="@+id/ttd_dtempl_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttd_dmandal"
+        android:text="Temple Name" />
+
+    <TextView
+        android:id="@+id/ttd_dname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttd_dtempl_name"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/ttd_demail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttd_dname"
+        android:text="email" />
+
+    <TextView
+        android:id="@+id/ttd_dphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ttd_demail"
+        android:text="Phone" />
+
+</RelativeLayout>

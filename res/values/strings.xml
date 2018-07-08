@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ttdApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="load_msg">Please wait, loadding data...</string>
+    <string name="load_dmsg">Please wait, loadding districts data...</string>
+    <string name="load_mmsg">Please wait, loadding mandals data...</string>
+    <string name="load_vmsg">Please wait, loadding villages data...</string>
+    <string name="load_tmsg">Please wait, loadding temples data...</string>
+    <string name="load_update_msg">Please wait, Updating temples data...</string>
+    
+    <string-array name="ttd_category">
+    	<item>BAJANAMANDALI</item>   
+        <item>SRIVARI SEVA</item>
+        <item>PRAVACHAM</item>
+        <item>PUROHIT/ARCHAKA</item>
+        <item>DONORS</item>
+        <item>GOVINDAM PARAMANANDAM</item>
+        <item>LOCAL TEMPLE</item>
+        <item>KOLATAM</item>
+        <item>CULTURAL</item>
+        <item>OTHERS</item>
+    </string-array>
+    <string name="prompt">Select Category</string>
+    <string name="dprompt">Select District</string>
+    <string name="mprompt">Select Mandal</string>
+    <string name="vprompt">Select Village</string>
+
+</resources>
